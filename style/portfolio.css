@@ -1,1 +1,14 @@
+:root {
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", serif;
+}
 
+h1 {
+  font-family: var(--primary-font);
+}
+
+p {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-style: normal;
+}

@@ -24,7 +24,7 @@ h1 {
   font-size: 80px;
 }
 
-h2 {
+.hero h2 {
   font-family: var(--secondary-font);
   font-weight: 500;
 }
@@ -48,8 +48,68 @@ h3 {
   color: black;
 }
 
+.text-column {
+  padding: 0 60px 120px;
+}
+
 p {
   font-family: var(--secondary-font);
   font-weight: 500;
   font-style: normal;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+h2 {
+  font-family: var(--primary-font);
+  font-size: 45px;
+  line-height: 2;
+}
+
+.btn-app {
+  font-family: var(--secondary-font);
+  background: var(--background-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-app:hover {
+  border-color: var(--primary-color);
+}
+
+img {
+  padding: 25px;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero h2,
+  h3 {
+    font-size: 23px;
+  }
+
+  .text-column {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }

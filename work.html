@@ -6,7 +6,7 @@
     <title>A project overview - Front-end developer Elena Würtz</title>
     <meta
       name="description"
-      content="An overview of my work projects as a front-end developer so far."
+      content="An overview of Elenas work projects as a front-end developer so far."
     />
 
     <link
@@ -42,7 +42,7 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="/imgs/logo.png"
             alt="SheCodes Logo"
@@ -54,11 +54,13 @@
         /></a>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
-          <li><a href="/work.html" class="active">Work</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li>
+            <a href="/work.html" class="active" title="Elenas Work">Work</a>
+          </li>
+          <li><a href="/about.html" title="About Elena">About</a></li>
+          <li><a href="/contact.html" title="ontact Elena">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -89,7 +91,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-lg-6">
           <img
             src="/imgs/world-clock.png"
@@ -113,6 +115,40 @@
           </p>
         </div>
       </div>
+
+      <footer>
+        <div
+          class="work-contact justify-content-around pt-3 pb-3 mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h2>Work Inquiry</h2>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="contact-button btn btn-branding"
+              title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="mail-link text-center mb-3">
+          <a href="mailto:elena.w@hotmail.de">elena.w@hotmail.de</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="/" target="_blank" title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="/" target="_blank" title="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="/" target="_blank" title="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

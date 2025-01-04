@@ -9,10 +9,41 @@ body {
   background-color: var(--background-color);
 }
 
+.logo {
+  max-height: 40px;
+}
+
 .hero {
   text-align: center;
   padding: 130px 0;
   border: var(--primary-color) 10px solid;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  padding-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--secondary-font);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav .active {
+  color: var(--primary-color);
 }
 
 h1,

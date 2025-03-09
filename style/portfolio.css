@@ -215,6 +215,10 @@ footer .social-links a:hover {
     padding: 15px 0;
   }
 
+  .cv-button {
+    margin-top: 20px;
+  }
+
   footer .mail-link a {
     font-size: 25px;
   }
